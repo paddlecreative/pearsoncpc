@@ -488,20 +488,29 @@ div.preheader {
       </div>
   
       <div class="layout one-col fixed-width stack" style="Margin: 0 auto;max-width: 600px;min-width: 320px; width: 320px;width: calc(28000% - 167400px);overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;">
-        <div class="layout__inner" style="border-collapse: collapse;display: table;width: 100%;background-color: #ffffff;">
-        <!--[if (mso)|(IE)]><table align="center" cellpadding="0" cellspacing="0" role="presentation"><tr class="layout-fixed-width" style="background-color: #ffffff;"><td style="width: 600px" class="w560"><![endif]-->
-          <div class="column" style="text-align: left;color: #61606c;font-size: 14px;line-height: 21px;font-family: sans-serif;">
-        
-            <div style="Margin-left: 20px;Margin-right: 20px;Margin-top: 12px;Margin-bottom: 12px;">
-      <div style="mso-line-height-rule: exactly;mso-text-raise: 11px;vertical-align: middle;">
-        <p style="Margin-top: 0;Margin-bottom: 0;font-family: arial,sans-serif;"><span class="font-arial"><span style="color:#0b5b8c"><strong>Order Number&nbsp;</strong></span>{{ order_id }}</span></p><p style="Margin-top: 20px;Margin-bottom: 0;font-family: arial,sans-serif;"><span class="font-arial"><strong>{Item Name}</strong>&nbsp;&nbsp; {Item Date &amp; time}&nbsp;(custom field in Webflow)&nbsp; {Quantity}&nbsp; &nbsp;{Price}</span></p><p style="Margin-top: 20px;Margin-bottom: 0;font-family: arial,sans-serif;"><span class="font-arial"><strong>{Item Name}&nbsp;</strong>&nbsp; {Item Date &amp; time}&nbsp;(custom field in Webflow)&nbsp; {Quantity}&nbsp; &nbsp;{Price}</span></p><p style="Margin-top: 20px;Margin-bottom: 0;font-family: arial,sans-serif;"><span class="font-arial"><strong>{Item Name}&nbsp;</strong>&nbsp; {Item Date &amp; time}&nbsp;(custom field in Webflow)&nbsp; 
-{Quantity}&nbsp; &nbsp;{Price}</span></p><p style="Margin-top: 20px;Margin-bottom: 0;font-family: arial,sans-serif;"><span class="font-arial"><strong>{Item Name}</strong>&nbsp;&nbsp; {Item Date &amp; time}&nbsp;(custom field in Webflow)&nbsp; {Quantity}&nbsp; &nbsp;{Price}</span></p><p style="Margin-top: 20px;Margin-bottom: 0;font-family: arial,sans-serif;"><span class="font-arial"><strong>{Item Name}</strong>&nbsp;&nbsp; {Item Date &amp; time}&nbsp;(custom field in Webflow)&nbsp; {Quantity}&nbsp; &nbsp;{Price}</span></p><p style="Margin-top: 20px;Margin-bottom: 0;font-family: arial,sans-serif;"><span class="font-arial"><strong>Payment Method:</strong> Credit or Debit Card</span></p><p style="Margin-top: 20px;Margin-bottom: 0;font-family: arial,sans-serif;"><span class="font-arial"><strong>Total</strong>:&#163;{total}</span></p>
-      </div>
-    </div>
-        
-          </div>
-        <!--[if (mso)|(IE)]></td></tr></table><![endif]-->
+<div class="layout__inner" style="border-collapse: collapse;display: table;width: 100%;background-color: #ffffff;">
+    <!--[if (mso)|(IE)]><table align="center" cellpadding="0" cellspacing="0" role="presentation"><tr class="layout-fixed-width" style="background-color: #ffffff;"><td style="width: 600px" class="w560"><![endif]-->
+    <div class="column"
+        style="text-align: left;color: #61606c;font-size: 14px;line-height: 21px;font-family: sans-serif;">
+
+        <div style="Margin-left: 20px;Margin-right: 20px;Margin-top: 12px;Margin-bottom: 12px;">
+            <div style="mso-line-height-rule: exactly;mso-text-raise: 11px;vertical-align: middle;">
+                <p style="Margin-top: 0;Margin-bottom: 0;font-family: arial,sans-serif;"><span class="font-arial"><span
+                            style="color:#0b5b8c"><strong>Order Number&nbsp;</strong></span>{{ order_id }}</span></p>
+                {% for item in items %}
+                <p style="Margin-top: 20px;Margin-bottom: 0;font-family: arial,sans-serif;"><span
+                        class="font-arial"><strong>{{ item.name }}</strong>&nbsp;&nbsp;{% for option in item.options %}{% if option.name|lower == "date" %}{{ item.value }}{% endif %}{% endfor %}&nbsp;{% for option in item.options %}{% if option.name|lower == "time" %}{{ item.value }}{% endif %}{% endfor %}&nbsp;&nbsp;{{ item.quantity }}&nbsp;&nbsp;{{ item.price|money_format }}</span></p>
+                {% endfor %}
+                <p style="Margin-top: 20px;Margin-bottom: 0;font-family: arial,sans-serif;"><span
+                        class="font-arial"><strong>Payment Method:</strong> {{ cc_number_masked }}</span></p>
+                <p style="Margin-top: 20px;Margin-bottom: 0;font-family: arial,sans-serif;"><span
+                        class="font-arial"><strong>Total</strong>:{{ total_order|money_format }}</span></p>
+            </div>
         </div>
+
+    </div>
+    <!--[if (mso)|(IE)]></td></tr></table><![endif]-->
+</div>
       </div>
   
       <div style="mso-line-height-rule: exactly;line-height: 20px;font-size: 20px;">&nbsp;</div>
