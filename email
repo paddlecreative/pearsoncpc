@@ -499,7 +499,7 @@ div.preheader {
                             style="color:#0b5b8c"><strong>Order Number&nbsp;</strong></span>{{ order_id }}</span></p>
                 {% for item in items %}
                 <p style="Margin-top: 20px;Margin-bottom: 0;font-family: arial,sans-serif;"><span
-                        class="font-arial"><strong>{{ item.name }}</strong>&nbsp;&nbsp;{% for option in item.options %}{% if option.name|lower == "date" %}{{ item.value }}{% endif %}{% endfor %}&nbsp;{% for option in item.options %}{% if option.name|lower == "time" %}{{ item.value }}{% endif %}{% endfor %}&nbsp;&nbsp;{{ item.quantity }}&nbsp;&nbsp;{{ item.price|money_format }}</span></p>
+                        class="font-arial"><strong>{{ item.name }}</strong>&nbsp;&nbsp;{% for option in item.options %}{% if option.name|lower == "date" %}{{ option.value }}{% endif %}{% endfor %}&nbsp;{% for option in item.options %}{% if option.name|lower == "time" %}{{ option.value }}{% endif %}{% endfor %}&nbsp;&nbsp;{{ item.quantity }}&nbsp;&nbsp;{{ item.price|money_format }}</span></p>
                 {% endfor %}
                 <p style="Margin-top: 20px;Margin-bottom: 0;font-family: arial,sans-serif;"><span
                         class="font-arial"><strong>Payment Method:</strong> {{ cc_number_masked }}</span></p>
