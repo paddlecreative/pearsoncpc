@@ -234,21 +234,6 @@ div.preheader {
     .fixed-width.has-border .layout__inner {
       display: flex !important;
     }
-  }
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .fblike {
-    background-image: url(https://i7.createsend1.com/static/eb/master/13-the-blueprint-3/images/fblike@2x.png) !important;
-  }
-  .tweet {
-    background-image: url(https://i8.createsend1.com/static/eb/master/13-the-blueprint-3/images/tweet@2x.png) !important;
-  }
-  .linkedinshare {
-    background-image: url(https://i9.createsend1.com/static/eb/master/13-the-blueprint-3/images/lishare@2x.png) !important;
-  }
-  .forwardtoafriend {
-    background-image: url(https://i10.createsend1.com/static/eb/master/13-the-blueprint-3/images/forward@2x.png) !important;
-  }
 }
 @media (max-width: 321px) {
   .fixed-width.has-border .layout__inner {
@@ -442,18 +427,13 @@ div.preheader {
           <!--[if (mso)|(IE)]><table align="center" class="preheader" cellpadding="0" cellspacing="0" role="presentation"><tr><td style="width: 280px" valign="top"><![endif]-->
             <div class="snippet" style="display: table-cell;Float: left;font-size: 12px;line-height: 19px;max-width: 280px;min-width: 140px; width: 140px;width: calc(14000% - 78120px);padding: 10px 0 5px 0;color: #b3b3b3;font-family: sans-serif;">
               
-            </div>
-          <!--[if (mso)|(IE)]></td><td style="width: 280px" valign="top"><![endif]-->
-            <div class="webversion" style="display: table-cell;Float: left;font-size: 12px;line-height: 19px;max-width: 280px;min-width: 139px; width: 139px;width: calc(14100% - 78680px);padding: 10px 0 5px 0;text-align: right;color: #b3b3b3;font-family: sans-serif;">
-              <p style="Margin-top: 0;Margin-bottom: 0;">No images? <a style="text-decoration: underline;transition: opacity 0.1s ease-in;color: #b3b3b3;" href="https://paddlecreative.createsend1.com/t/t-e-mjyhhjk-l-i/">Click here</a></p>
-            </div>
-          <!--[if (mso)|(IE)]></td></tr></table><![endif]-->
+           <!--[if (mso)|(IE)]></td></tr></table><![endif]-->
           </div>
         </div>
         <div class="header" style="Margin: 0 auto;max-width: 600px;min-width: 320px; width: 320px;width: calc(28000% - 167400px);" id="emb-email-header-container">
         <!--[if (mso)|(IE)]><table align="center" class="header" cellpadding="0" cellspacing="0" role="presentation"><tr><td style="width: 600px"><![endif]-->
           <div class="logo emb-logo-margin-box" style="font-size: 26px;line-height: 32px;Margin-top: 6px;Margin-bottom: 20px;color: #41637e;font-family: Avenir,sans-serif;Margin-left: 20px;Margin-right: 20px;" align="center">
-            <div class="logo-center" align="center" id="emb-email-header"><a style="text-decoration: none;transition: opacity 0.1s ease-in;color: #41637e;" href="https://paddlecreative.createsend1.com/t/t-l-mjyhhjk-l-r/"><img style="display: block;height: auto;width: 100%;border: 0;max-width: 235px;" src="https://i1.createsend1.com/ei/t/E4/903/B0E/020424/csfinal/Pearson-Logo_NEW-2020-Final21.png" alt="Pearson CPC Logo" width="235"></a></div>
+            <div class="logo-center" align="center" id="emb-email-header"><a style="text-decoration: none;transition: opacity 0.1s ease-in;color: #41637e;<img style="display: block;height: auto;width: 100%;border: 0;max-width: 235px;" src="https://uploads-ssl.webflow.com/5fbba2683533fc02b03cdde9/603d1891b71835d3b8efedff_Pearson-Logo_NEW-2020-Final1.png" alt="Pearson CPC Logo" width="235"></a></div>
           </div>
         <!--[if (mso)|(IE)]></td></tr></table><![endif]-->
         </div>
@@ -470,7 +450,8 @@ div.preheader {
         
             <div style="Margin-left: 20px;Margin-right: 20px;">
       <div style="mso-line-height-rule: exactly;mso-text-raise: 11px;vertical-align: middle;">
-        <h1 class="size-30" style="Margin-top: 0;Margin-bottom: 0;font-style: normal;font-weight: normal;color: #0b5b8c;font-size: 26px;line-height: 34px;font-family: arial,sans-serif;text-align: center;" lang="x-size-30"><span class="font-arial"><span style="color:#0b5b8c">Thank you for your order!</span></span></h1><p style="Margin-top: 20px;Margin-bottom: 0;font-family: arial,sans-serif;"><span class="font-arial">&nbsp;</span></p><p style="Margin-top: 20px;Margin-bottom: 0;font-family: arial,sans-serif;"><span class="font-arial"><span>Dear customer,</span></span></p><p style="Margin-top: 20px;Margin-bottom: 20px;font-family: arial,sans-serif;"><span class="font-arial"><span>Thank you for booking Driver CPC training, with Pearson CPC. Please find a summary of the course details you have booked below:&nbsp;</span></span></p>
+        <h1 class="size-30" style="Margin-top: 0;Margin-bottom: 0;font-style: normal;font-weight: normal;color: #0b5b8c;font-size: 26px;line-height: 34px;font-family: arial,sans-serif;text-align: center;" lang="x-size-30"><span class="font-arial"><span style="color:#0b5b8c">Thank you for your order!</span></span></h1><p style="Margin-top: 20px;Margin-bottom: 0;font-family: arial,sans-serif;"><span class="font-arial">&nbsp;</span></p><p style="Margin-top: 20px;Margin-bottom: 0;font-family: arial,sans-serif;"><span class="font-arial"><span>Dear {{ billing_address.first_name }} {{ billing_address.last_name }}
+                                                          ({{ customer_email }}),</span></span></p><p style="Margin-top: 20px;Margin-bottom: 20px;font-family: arial,sans-serif;"><span class="font-arial"><span>Thank you for booking Driver CPC training, with Pearson CPC. Please find a summary of the course details you have booked below:&nbsp;</span></span></p>
       </div>
     </div>
         
@@ -527,8 +508,8 @@ div.preheader {
             <div style="Margin-left: 20px;Margin-right: 20px;">
       <div style="mso-line-height-rule: exactly;mso-text-raise: 11px;vertical-align: middle;">
         <h3 class="size-18" style="Margin-top: 0;Margin-bottom: 0;font-style: normal;font-weight: normal;color: #0b5b8c;font-size: 17px;line-height: 26px;font-family: arial,sans-serif;" lang="x-size-18"><span class="font-arial"><span style="color:#0b5b8c"><strong>NEXT STEPS:</strong></span></span></h3><p class="size-14" style="Margin-top: 12px;Margin-bottom: 0;font-family: arial,sans-serif;font-size: 14px;line-height: 21px;" lang="x-size-14"><span class="font-arial"><strong>Please reply to this email</strong>, with a photograph of the front and back of your licence so that we are able to process your booking. If we haven&#8217;t got your license details, we can&#8217;t upload your hours.</span></p><p class="size-14" style="Margin-top: 20px;Margin-bottom: 0;font-family: arial,sans-serif;font-size: 14px;line-height: 21px;" lang="x-size-14"><span class="font-arial">&nbsp;</span></p><h3 
-class="size-18" style="Margin-top: 20px;Margin-bottom: 0;font-style: normal;font-weight: normal;color: #0b5b8c;font-size: 17px;line-height: 26px;font-family: arial,sans-serif;" lang="x-size-18"><span class="font-arial"><span style="color:#0b5b8c"><strong>WHAT YOU NEED:</strong></span></span></h3><p class="size-14" style="Margin-top: 12px;Margin-bottom: 0;font-family: arial,sans-serif;font-size: 14px;line-height: 21px;" lang="x-size-14"><span class="font-arial">Our online courses are run via Zoom and you will need access to a tablet, laptop or Desktop PC with working webcam and microphone. You can download Zoom for free from this <strong><a style="text-decoration: underline;transition: opacity 0.1s ease-in;color: #0b5b8c;" href="https://paddlecreative.createsend1.com/t/t-l-mjyhhjk-l-y/">link</a></strong> and here&#8217;s a helpful <strong><a 
-style="text-decoration: underline;transition: opacity 0.1s ease-in;color: #0b5b8c;" href="https://paddlecreative.createsend1.com/t/t-l-mjyhhjk-l-t/">video</a></strong> on how to join a meeting.</span></p><p class="size-14" style="Margin-top: 20px;Margin-bottom: 0;font-family: arial,sans-serif;font-size: 14px;line-height: 21px;" lang="x-size-14"><span class="font-arial">&nbsp;</span></p><h3 class="size-18" style="Margin-top: 20px;Margin-bottom: 0;font-style: normal;font-weight: normal;color: #0b5b8c;font-size: 17px;line-height: 26px;font-family: arial,sans-serif;" lang="x-size-18"><span class="font-arial"><strong><span style="color:#0b5b8c">WHAT HAPPENS NEXT:</span></strong></span></h3><p class="size-14" style="Margin-top: 12px;Margin-bottom: 0;font-family: arial,sans-serif;font-size: 14px;line-height: 21px;" lang="x-size-14"><span class="font-arial">You will 
+class="size-18" style="Margin-top: 20px;Margin-bottom: 0;font-style: normal;font-weight: normal;color: #0b5b8c;font-size: 17px;line-height: 26px;font-family: arial,sans-serif;" lang="x-size-18"><span class="font-arial"><span style="color:#0b5b8c"><strong>WHAT YOU NEED:</strong></span></span></h3><p class="size-14" style="Margin-top: 12px;Margin-bottom: 0;font-family: arial,sans-serif;font-size: 14px;line-height: 21px;" lang="x-size-14"><span class="font-arial">Our online courses are run via Zoom and you will need access to a tablet, laptop or Desktop PC with working webcam and microphone. You can download Zoom for free from this <strong><a style="text-decoration: underline;transition: opacity 0.1s ease-in;color: #0b5b8c;" href="https://zoom.us/download">link</a></strong> and here&#8217;s a helpful <strong><a 
+style="text-decoration: underline;transition: opacity 0.1s ease-in;color: #0b5b8c;" href="https://support.zoom.us/hc/en-us/articles/201362193-Joining-a-meeting">video</a></strong> on how to join a meeting.</span></p><p class="size-14" style="Margin-top: 20px;Margin-bottom: 0;font-family: arial,sans-serif;font-size: 14px;line-height: 21px;" lang="x-size-14"><span class="font-arial">&nbsp;</span></p><h3 class="size-18" style="Margin-top: 20px;Margin-bottom: 0;font-style: normal;font-weight: normal;color: #0b5b8c;font-size: 17px;line-height: 26px;font-family: arial,sans-serif;" lang="x-size-18"><span class="font-arial"><strong><span style="color:#0b5b8c">WHAT HAPPENS NEXT:</span></strong></span></h3><p class="size-14" style="Margin-top: 12px;Margin-bottom: 0;font-family: arial,sans-serif;font-size: 14px;line-height: 21px;" lang="x-size-14"><span class="font-arial">You will 
 receive an email the day before the course, with a link to access the Zoom meeting. You will only be able to access the course via this link. If the email has not arrived, please check your spam or junk folder first before contacting us.&nbsp;</span></p><p class="size-14" style="Margin-top: 20px;Margin-bottom: 0;font-family: arial,sans-serif;font-size: 14px;line-height: 21px;" lang="x-size-14"><span class="font-arial">&nbsp;</span></p><h3 class="size-18" style="Margin-top: 20px;Margin-bottom: 0;font-style: normal;font-weight: normal;color: #0b5b8c;font-size: 17px;line-height: 26px;font-family: arial,sans-serif;" lang="x-size-18"><span class="font-arial"><span style="color:#0b5b8c"><strong>ON THE DAY:</strong></span></span></h3><p class="size-14" style="Margin-top: 12px;Margin-bottom: 0;font-family: arial,sans-serif;font-size: 14px;line-height: 21px;" lang="x-size-14"><span 
 class="font-arial">You will need to join the Zoom course at 08:00hrs for the registration process, so we can view your licence every day. The course will then commence at 08:30 prompt and end between 16.15 and 16.30 hrs with breaks in the morning, lunchtime and afternoon.</span></p><p class="size-14" style="Margin-top: 20px;Margin-bottom: 0;font-family: arial,sans-serif;font-size: 14px;line-height: 21px;" lang="x-size-14"><span class="font-arial">&nbsp;</span></p><h3 class="size-18" style="Margin-top: 20px;Margin-bottom: 0;font-style: normal;font-weight: normal;color: #0b5b8c;font-size: 17px;line-height: 26px;font-family: arial,sans-serif;" lang="x-size-18"><span class="font-arial"><span style="color:#0b5b8c"><strong>IMPORTANT:</strong></span></span></h3><p class="size-14" style="Margin-top: 12px;Margin-bottom: 0;font-family: arial,sans-serif;font-size: 14px;line-height: 21px;" 
 lang="x-size-14"><span class="font-arial">In order to comply with JAUPT&#8217;s regulations, please leave your camera on at all times (excluding breaks). This ensures we have proof of attendance and can upload your hours. We request that clothing appropriate for a classroom situation is worn at all times. Please be aware that a JAUPT Auditor may enter the meeting, at any time, to ensure compliance. A mandatory feedback from will also be emailed to you after each course for your completion.</span></p><p style="Margin-top: 20px;Margin-bottom: 0;font-family: arial,sans-serif;"><span class="font-arial">Should you have any questions, please do not hesitate to get in touch.</span></p><p style="Margin-top: 20px;Margin-bottom: 0;font-family: arial,sans-serif;"><span class="font-arial">Best wishes</span></p><p style="Margin-top: 20px;Margin-bottom: 20px;font-family: arial,sans-serif;"><span 
@@ -579,10 +560,7 @@ class="font-arial"><strong>Pearson CPC<br>
           <!--[if (mso)|(IE)]><table align="center" cellpadding="0" cellspacing="0" role="presentation"><tr class="layout-email-footer"><td style="width: 600px;" class="w560"><![endif]-->
             <div class="column" style="text-align: left;font-size: 12px;line-height: 19px;color: #b3b3b3;font-family: sans-serif;">
               <div style="Margin-left: 20px;Margin-right: 20px;Margin-top: 10px;Margin-bottom: 10px;">
-                <div style="font-size: 12px;line-height: 19px;">
-                  <a style="text-decoration: underline;transition: opacity 0.1s ease-in;color: #b3b3b3;" href="https://paddlecreative.createsend1.com/t/t-u-mjyhhjk-l-d/">Unsubscribe</a>
                 </div>
-              </div>
             </div>
           <!--[if (mso)|(IE)]></td></tr></table><![endif]-->
           </div>
